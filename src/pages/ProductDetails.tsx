@@ -199,7 +199,7 @@ export default function ProductDetails() {
                 <div>
                   <label className="block text-sm font-bold text-gray-700 mb-2">Comment</label>
                   <textarea 
-                    className="w-full p-4 bg-white border border-gray-200 rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 min-h-[120px]"
+                    className="w-full p-4 bg-white border border-gray-200 rounded-2xl outline-none focus:ring-2 focus:ring-emerald-500 min-h-30"
                     placeholder="Share your experience..."
                     value={newReview.comment}
                     onChange={(e) => setNewReview({ ...newReview, comment: e.target.value })}

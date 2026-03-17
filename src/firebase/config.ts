@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 import { getStorage } from "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: process.env.VITE_FIREBASE_API_KEY || "dummy-key",
-  authProvider: process.env.VITE_FIREBASE_AUTH_DOMAIN || "dummy-auth",
-  projectId: process.env.VITE_FIREBASE_PROJECT_ID || "dummy-project",
-  storageBucket: process.env.VITE_FIREBASE_STORAGE_BUCKET || "dummy-bucket",
-  messagingSenderId: process.env.VITE_FIREBASE_MESSAGING_SENDER_ID || "dummy-sender",
-  appId: process.env.VITE_FIREBASE_APP_ID || "dummy-app",
+  apiKey: "AIzaSyD1scQYfcVqrGSWKdP9JD-2a8Nzb9M2g3k",
+  authDomain: "organova-67566.firebaseapp.com",
+  projectId: "organova-67566",
+  storageBucket: "organova-67566.firebasestorage.app",
+  messagingSenderId: "481607711600",
+  appId: "1:481607711600:web:a2ee51361b0f748ef06db5"
 };
 
 const app = initializeApp(firebaseConfig);
